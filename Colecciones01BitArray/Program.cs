@@ -6,7 +6,7 @@ namespace Colecciones01BitArray
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hola mundo desde Cedensa");
         }
     }
 }
