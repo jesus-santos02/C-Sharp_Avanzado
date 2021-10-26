@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colecciones01ArrayList", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colecciones01BitArray", "Colecciones01BitArray\Colecciones01BitArray.csproj", "{1A175DE1-BDD5-4553-9269-B59C4333AF12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colecciones01HashTable", "Colecciones01HashTable\Colecciones01HashTable.csproj", "{E5D93982-1DA5-4C58-8335-37A06E58D771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colecciones01Queue", "Colecciones01Queue\Colecciones01Queue.csproj", "{551B6828-A25B-4C26-9E53-78EDE7238065}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{1A175DE1-BDD5-4553-9269-B59C4333AF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A175DE1-BDD5-4553-9269-B59C4333AF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A175DE1-BDD5-4553-9269-B59C4333AF12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D93982-1DA5-4C58-8335-37A06E58D771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D93982-1DA5-4C58-8335-37A06E58D771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D93982-1DA5-4C58-8335-37A06E58D771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D93982-1DA5-4C58-8335-37A06E58D771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{551B6828-A25B-4C26-9E53-78EDE7238065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551B6828-A25B-4C26-9E53-78EDE7238065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551B6828-A25B-4C26-9E53-78EDE7238065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551B6828-A25B-4C26-9E53-78EDE7238065}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
