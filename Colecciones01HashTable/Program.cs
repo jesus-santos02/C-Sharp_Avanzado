@@ -62,8 +62,8 @@ namespace Colecciones01HashTable
             Console.WriteLine("-----");
 
             //Podemos recorrer los valores
-            foreach (int llave in miTabla.Keys)
-                     Console.WriteLine(llave);
+            foreach (int valor in miTabla.Values)
+                     Console.WriteLine(valor);
 
             Console.WriteLine("-----");
 
