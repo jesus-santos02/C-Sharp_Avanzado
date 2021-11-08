@@ -6,9 +6,15 @@ namespace ConversionExplicita01
     {
         static void Main(string[] args)
         {
-            Imaginario img = new Imaginario(7.3);
+            Real real = new Real();
+            Imaginario imaginario = new Imaginario();
+            Complejo complejo = new Complejo(9, 2);
 
-            Console.WriteLine(img);
+            real = (Real)complejo;
+            imaginario = (Imaginario)complejo;
+
+            Console.WriteLine(real);
+            Console.WriteLine(imaginario);
         }
     }
 }

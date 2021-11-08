@@ -1,6 +1,6 @@
 using System;
 
-namespace ConversionExplicita01
+namespace ConversionImplicita01
 {
     class Complejo
     {
