@@ -41,6 +41,10 @@ namespace Exception01
                     Exception ex = new Exception(string.Format($"La caldera {marca} se sobrecalienta"));
                     ex.HelpLink = "http://www.google.com.do";
 
+                    ex.Data.Add("Momento:", string.Format($"Ocurrio en {DateTime.Now}"));
+                    ex.Data.Add("Temperatura Actual:", string.Format($"{tempActual} ºC"));
+                    ex.Data.Add("Incremento dado:", string.Format($"{aumento} ºC"));
+
                     throw ex;
                 }
             }

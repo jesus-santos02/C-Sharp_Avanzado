@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace Exception01
 {
@@ -22,6 +23,13 @@ namespace Exception01
                 Console.WriteLine($"Clase donde ocurrió: {e.TargetSite.DeclaringType}");
                 Console.WriteLine($"Tipo de miembro: {e.TargetSite.MemberType}");
                 Console.WriteLine($"Stack: {e.StackTrace}");
+                Console.WriteLine($"Help Link: {e.HelpLink}");
+                
+                if (e.Data != null)
+                {
+                    foreach(DictionaryEntry informacion in e.Data)
+                    Console.WriteLine($"{informacion.Key} {informacion.Value}");
+                }
             }
         }
     }
