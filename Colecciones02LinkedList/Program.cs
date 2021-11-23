@@ -17,10 +17,15 @@ namespace Colecciones02LinkedList
                numeros.AddFirst(item);
            }
 
+           LinkedListNode<int> nodo1 = new LinkedListNode<int>(9);
+           numeros.AddFirst(nodo1);
+
            foreach (var numero in numeros)
            {
                Console.WriteLine(numero);
            }   
+
+           numeros.Remove(nodo1);
 
            Console.WriteLine("-------");  
 
